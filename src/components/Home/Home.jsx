@@ -13,7 +13,6 @@ const Home = ({
 }) => {
   const [timeRemaining, setTimeRemaining] = useState("");
 
-  // Calculate time remaining for each auction
   useEffect(() => {
     const interval = setInterval(() => {
       const updatedAuctions = auctions.map((auction) => {
