@@ -56,7 +56,7 @@ const Home = ({
         type="submit"
         onClick={handleAddAuction}
       >
-        Lägga till auktion <ion-icon name="chevron-forward-outline"></ion-icon>
+        Lägg till auktion <ion-icon name="chevron-forward-outline"></ion-icon>
       </button>
 
       <div className="row justify-content-center">
